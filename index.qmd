@@ -21,6 +21,6 @@ cv: curriculum vit&aelig;
 
 |             | Website | Portable Document Format | Microsoft Word |              |
 | :---------- | :-: | :-: | :-: | :----------: |
-| **{{< meta Resume >}}:** for private sector positions | [Preview site](resume.qmd) | [pdf]({{< meta format.resume-pdf.output-file >}}.pdf) | [docx]{{< meta format.resume-pdf.output-file >}}.docx) |  |
-| **{{< meta CV >}}:** for academic positions | [Preview site](cv.qmd) | [pdf]({{< meta format.cv-pdf.output-file >}}.pdf) | [docx]({{< meta format.cv-pdf.output-file >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| **{{< meta Resume >}}:** for private sector positions | [Preview site](resume.qmd) | [pdf]({{< meta resumefile >}}.pdf) | [docx]{{< meta resumefile >}}.docx) |  |
+| **{{< meta CV >}}:** for academic positions | [Preview site](cv.qmd) | [pdf]({{< meta cvfile >}}.pdf) | [docx]({{< meta cvfile >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
