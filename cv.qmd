@@ -1,5 +1,7 @@
 ---
 format:
+  html:
+    toc: true
   cv-pdf:
     output-file: "Grossi-cv"
     output-ext: "pdf"

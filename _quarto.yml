@@ -12,7 +12,6 @@ format:
     embed-resources: true
     smooth-scroll: true
     code-fold: false
-    toc: true
     toc-location: left
     fig-width: 8
     fig-height: 7
