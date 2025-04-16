@@ -1,13 +1,9 @@
 ---
 format:
   html:
-    css: style.css
     toc: false
-title: resume-quarto-moderncv
-subtitle: "A limited implementation of the LaTeX moderncv package in Quarto for rending resumes in html, pdf, and docx formats"
-
-resumefile: "Grossi-resume"
-cvfile: "Grossi-cv"
+metadata-files:
+  - _contents.yml
 
 Resume: R&egrave;sum&egrave;
 resume: r&egrave;sum&egrave;
@@ -21,6 +17,6 @@ cv: curriculum vit&aelig;
 
 |             | Website | Portable Document Format | Microsoft Word |              |
 | :---------- | :-: | :-: | :-: | :----------: |
-| **{{< meta Resume >}}:** for private sector positions | [Preview site](resume.qmd) | [pdf]({{< meta resumefile >}}.pdf) | [docx]{{< meta resumefile >}}.docx) |  |
+| **{{< meta Resume >}}:** for private sector positions | [Preview site](resume.qmd) | [pdf]({{< meta resumefile >}}.pdf) | [docx]({{< meta resumefile >}}.docx) |  |
 | **{{< meta CV >}}:** for academic positions | [Preview site](cv.qmd) | [pdf]({{< meta cvfile >}}.pdf) | [docx]({{< meta cvfile >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
