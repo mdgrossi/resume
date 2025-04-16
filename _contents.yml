@@ -77,7 +77,7 @@ experience:
     - role: Data Scientist
       employer: National Oceanic and Atmospheric Administration
       extra: Southeast Fisheries Science Center (SEFSC)
-      dates: Jan 2023--present
+      date: Jan 2023--present
       details: |
         * Overseeing the development and deployment of computer vision machine learning algorithms to automate object detection, tracking, species identification, and fish aging from images and stereo video by bridging multidisciplinary federal, academic, and industry partners and spearheading transition planning within the SEFSC. Awarded $80k to operationalize these models to increase data processing efficiency by up to 50%, reduce manual processing time by up to 90%, and save over $0.5M annually.
         * Leading a 3-year $768k collaborative initiative across five Divisions to bridge scientists, data users, and IT to modernize SEFSC data infrastructure and address bottlenecks through consolidation and data warehousing strategies aligned with FAIR data principles and data governance best practices (competitive funding award).
@@ -85,7 +85,7 @@ experience:
         * Leading Center-wide initiative to encourage innovation by documenting and implementing best practices (*e.g.*, data governance), championing open science (*e.g.*, GitHub, Quarto, Jupyter notebooks), and providing technical expertise and training in Python and machine learning.
     - role: Uncrewed Systems Data Coordinator
       extra: National Centers for Environmental Information (NCEI)
-      dates: Aug 2021--Jan 2023
+      date: Aug 2021--Jan 2023
       details: |
         * Developed and documented a cloud-optimized on-demand data pipeline in AWS, reducing the data ingest-to-archive timeline from months to minutes. Demonstrated to Leadership cost, computation, and scalability benefits of cloud computing for data processing and storage by comparing lift-and-shift to refactored cloud migration methods and netCDF to Zarr data formats.
         * Established a collaborative relationship between NCEI, another NOAA program office, and external partners to resolve long-standing data archival issues by leading the implementation of metadata standardization and controlled vocabularies. Implemented the archival of delayed-mode ocean glider data for the first time, increasing public access to glider data by several-fold.
@@ -96,14 +96,14 @@ experience:
     - role: Resident Assistant
       employer: University of Miami
       location: Coral Gables, FL
-      dates: Aug 2016--Jul 2021
+      date: Aug 2016--Jul 2021
       details: |
         * Developed computer vision neural network models in Python for predicting ocean drifter trajectories, reducing error by nearly $50\%$ over conventional regression models in many cases and at lower computational cost than theory-based models. Competitively selected as a UM Center for Computational Science Graduate Fellow in support of student-proposed interdisciplinary research.
         * Delivered oral presentations to both technical audiences at conferences, symposiums, and science meetings and to lay audiences at outreach events, in the local community, and in underprivileged school classrooms.
         * Participated in a 3-week multi-institutional field campaign in the Gulf of Mexico utilizing a ship, small boats, uncrewed aerial vehicles, an uncrewed underwater vehicle, and 500 surface drifters to investigate the movement of material across the shelf, into coastal waters, and onto the shore in the Louisiana Bight.
     - role: Graduate Research Assistant
       extra: two graduate courses
-      dates: Aug 2018--Dec 2019
+      date: Aug 2018--Dec 2019
       details: |
         * Exercised classroom management for ~20 students per class. Articulated complex material, led laboratory experiments, and provided timely constructive feedback to foster student learning and development.
         * Taught R to 20 undergraduate students in weekly classroom sessions, bringing students with no previous coding experience to beginner-level confidence in writing scripts to solve real oceanography problems with class average homework grade 87%. Highly praised in overwhelmingly positive student feedback.
@@ -111,7 +111,7 @@ experience:
       employer: University of Massachusetts Dartmouth
       extra: Ocean Observation Laboratory
       location: New Bedford, MA
-      dates: Sep 2014--Jul 2016
+      date: Sep 2014--Jul 2016
       details: |
         * Implemented $130k NOAA Mid-Atlantic Regional Association Coastal Ocean Observing System ocean monitoring and research initiative by managing autonomous underwater glider missions and high-frequency (HF) marine radar throughout southeastern New England. Demonstrated ability to successfully and simultaneously manage multiple high-priority and time-sensitive projects.
         * Managed end-to-end operations of three glider missions in two years, surpassing the lab goal of one deployment per year.
@@ -122,7 +122,7 @@ experience:
       employer: University of Delaware
       extra: Ocean Exploration, Remote Sensing, and Biogeography Lab
       location: Lewes, DE
-      dates: Jul 2008--Aug 2010
+      date: Jul 2008--Aug 2010
       details: |
         * Developed a novel machine learning approach in R to predict density profiles anywhere in the ocean from satellite surface observations using 300,000+ temperature-salinity profiles and ten global ocean remote sensing products using neural networks.
         * Delivered regular demonstrations of research and data products to >1200 annual University visitors including elected officials, school groups, and community members using a state-of-the-art global data visualization display and Google Earth.
