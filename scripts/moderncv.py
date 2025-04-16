@@ -245,7 +245,19 @@ def cvexperience(items):
         }
         Normally, this dictionary would be from the YAML front matter of a
         Quarto markdown file.
-    """    
+    """
+    
+    # Remove pdf page breaks
+    ind = [i for i,d in enumerate(items) if 'role' not in d.keys()]
+    for i in ind:
+        items[i-1]['details'] = items[i-1]['details'] + items[i]['details']
+    items = [d for i,d in enumerate(items) if i not in ind]
+
+    for item in items:
+        # Add missing elements as placeholders
+        for k in ['role', 'employer', 'location', 'date', 'details']:
+            if k not in item.keys():
+                item[k] = ''
 
     table_start = '<table class = "mytable">\n<tbody>\n'
     entries = "".join(f"<tr><td class='year'><b>{item['date']}</b></td><td><b>{item['role']}</b> | {item['extra']}<br>{item['employer']}, {item['location']}</td></tr>" for item in items)
