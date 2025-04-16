@@ -1,5 +1,7 @@
 ---
 format:
+  html:
+    toc: true
   resume-pdf:
     output-file: "Grossi-resume"
     output-ext: "pdf"
