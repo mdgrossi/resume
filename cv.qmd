@@ -1,7 +1,5 @@
 ---
 format:
-  html:
-    css: style.css
   cv-pdf:
     output-file: "Grossi-cv"
     output-ext: "pdf"
@@ -10,8 +8,6 @@ format:
     output-ext: "docx"
 metadata-files:
   - _contents.yml
-execute:
-  echo: false
 ---
 
 ```{python}
