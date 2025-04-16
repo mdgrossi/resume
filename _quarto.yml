@@ -17,7 +17,6 @@ format:
     fig-width: 8
     fig-height: 7
     theme:
-      # light: flatly
       light: lumen
       dark: darkly
     css: style.css
