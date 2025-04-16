@@ -260,7 +260,7 @@ def cvexperience(items):
                 item[k] = ''
 
     table_start = '<table class = "mytable">\n<tbody>\n'
-    entries = "".join(f"<tr><td class='year'><b>{item['date']}</b></td><td><b>{item['role']}</b> | {item['extra']}<br>{item['employer']}, {item['location']}</td></tr>" for item in items)
+    entries = "".join(f"<tr><td class='year'><b>{item['date']}</b></td><td><b>{item['role']}</b> | {item['extra']}<br>{item['employer']}, {item['location']}</td></tr>" if 'extra' in item.keys() else f"<tr><td class='year'><b>{item['date']}</b></td><td><b>{item['role']}</b><br>{item['employer']}, {item['location']}</td></tr>" for item in items)
     table_end = '</tbody>\n</table>\n'
     
     # Assemble table
