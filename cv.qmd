@@ -3,10 +3,10 @@ format:
   html:
     css: style.css
   cv-pdf:
-    output-file: "my-cv"
+    output-file: "Grossi-cv"
     output-ext: "pdf"
   docx:
-    output-file: "my-cv"
+    output-file: "Grossi-cv"
     output-ext: "docx"
 metadata-files:
   - _contents.yml
