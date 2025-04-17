@@ -88,8 +88,17 @@ $endif$
 $if(contact.website)$
 \homepage{$contact.website$}
 $endif$
+$if(contact.github)$
+\homepage{$contact.github$}
+$endif$
 $if(contact.linkedin)$
 \social[linkedin]{$contact.linkedin$}
+$endif$
+$if(contact.orcid)$
+\social[linkedin]{$contact.orcid$}
+$endif$
+$if(contact.researchgate)$
+\social[linkedin]{$contact.researchgate$}
 $endif$
 $if(contact.extracvinfo)$
 \extrainfo{$contact.extracvinfo$}
