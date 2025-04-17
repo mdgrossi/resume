@@ -201,5 +201,5 @@ fundingawarded:
     - entry: 'NOAA Fisheries Information System Program Inflation Reduction Act ($768,237) "Building a Better Data Ecosystem: Database integration and data warehousing"'
       date: 2024-27
 
-resumefile: "Grossi-resume"
-cvfile: "Grossi-cv"
+resumefilename: "Grossi-resume"
+cvfilename: "Grossi-cv"
