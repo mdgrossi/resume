@@ -1,0 +1,28 @@
+---
+format:
+  coverletter-pdf:
+    output-file: "Grossi-coverletter"
+    output-ext: "pdf"
+  # docx:
+  #   output-file: "Grossi-coverletter"
+  #   output-ext: "docx"
+metadata-files:
+  - _contents.yml
+coverletter:
+  recipient: Data Department Hiring Team
+  address: "Schmidt Ocean Institute \\ 555 Bryant Street #374 \\ Palo Alto, CA 94301"
+  date: "\\today"
+  opening: "Dear Hiring Team"
+  closing: "Sincerely"
+---
+
+
+I am enthusiastically applying for the Data Solutions Engineer position at Schmidt Ocean Institute. My attached resume highlights my 10+ year career as an oceanographer, researcher, and data scientist. This experience spans both academia, where I developed innovative machine learning solutions to oceanographic problems while earning an M.S. and a Ph.D., as well as federal public service with the National Oceanic and Atmospheric Administration (NOAA), where I have focused on data science and data governance.
+
+Currently at NOAA Fisheries I oversee diverse teams of internal and external partners developing and deploying computer vision algorithms to automate object detection and tracking, species identification, and fish aging from images and underwater stereo video. Specifically, my job is to ensure that these carefully vetted innovative models deliver to the American taxpayer efficiency, cost savings, and accurate, reliable, and trustworthy scientific information used to effectively manage the living resources of the Southeast Region and Atlantic high seas in support of the largest recreational fishery and second largest commercial fishery in the United States.
+
+I recently led the deployment of image and video annotation software in Google Cloud, enabling the Science Center to scale up data analytics. I am also advising a national strategic initiative seeking to leverage uncrewed systems, cloud technologies, and machine learning automations to transform how optical data are collected, processed, and analyzed across NOAA Fisheries. And as an Open Science Mentor, I use my Master’s research experience processing global satellite data products to train and assist staff with accessing and working with large earth and environmental datasets such as those in the NASA Earthdata repository. At my previous NOAA appointment at the National Centers for Environmental Information, which curates the largest environmental data archive on the planet, I routinely engaged with external data providers, stakeholders, archivists, and scientists on data governance, metadata management, and FAIR and Open Science principles. On the side, I have also used NOAA data to create web-based visualization dashboards such as a local oceanic and atmospheric climatology.
+
+I believe my skill set and experience align well with Schmidt Ocean Institute’s need for help with technical scientific product development, data management, and project oversight. My technical skills are atop solid communication, people management, mission-driven leadership, and mentoring skills that are crucial for customer engagement and satisfaction. I am routinely a top performer at work, even as I have worked 80-100% remote, demonstrating personal and time management, dependability, and reliability.
+
+Thank you for taking the time to envision me as part of your team. I am happy to speak with you further as I believe I can be an asset to this opening or any other position at Schmidt Ocean Institute.
