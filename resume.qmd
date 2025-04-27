@@ -28,7 +28,7 @@ with open("_contents.yml", "r") as f:
 
 <div style="text-align: center">
 
-[Email](mailto:{{< meta contact.email >}}) |  [Website]({{< meta contact.website >}}) | [GitHub](https://github.com/{{< meta contact.github >}}) | [LinkedIn](https://www.linkedin.com/in/{{< meta contact.linkedin >}}) | [ORCID](https://orcid.org/{{< meta contact.orcid >}}) | [ResearchGate](https://www.researchgate.net/profile/{{< meta contact.researchgate >}})
+[Email](mailto:{{< meta contact.email >}}) | [Website]({{< meta contact.website >}}) | [GitHub](https://github.com/{{< meta contact.github >}}) | [LinkedIn](https://www.linkedin.com/in/{{< meta contact.linkedin >}}) | [ORCID](https://orcid.org/{{< meta contact.orcid >}}) | [ResearchGate](https://www.researchgate.net/profile/{{< meta contact.researchgate >}})
 
 </div>
 
