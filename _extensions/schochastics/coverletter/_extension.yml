@@ -7,7 +7,7 @@ contributes:
     pdf:
       filters:
         - styles.lua
-        - para.lua
+        - links-to-html.lua
       template-partials:
         - partials/biblio.tex
       template: coverlettertemplate.tex
