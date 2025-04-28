@@ -14,6 +14,8 @@ contact:
   extrainfo: "Desired Locations: Remote; Carteret County, NC"
 summary: "Oceanographer and data scientist with 14 years experience conducting high risk/high reward research, developing machine learning solutions to complex problems, and leading diverse interdisciplinary technical teams, including 4 years of supporting innovation within federal science mission programs. Demonstrated dependability, dedication, resourcefulness, and organizational and leadership skills. Passionate about using science and innovation to develop data-driven solutions for ocean conservation and resource management."
 education:
+  include-in-resume: true
+  include-in-cv: true
   items:
     - degree: Doctor of Philosophy
       major: Meteorology and Physical Oceanography
@@ -34,6 +36,7 @@ education:
       minor: Meteorology
       extra: cum laude
 skills:
+  include-in-resume: true
   ncol: 4
   items:
     - skill: Data Analysis
@@ -74,6 +77,8 @@ skills:
       scale: "0.2"
   softskills: critical thinking, strategic thinking, organized, innovative problem solving, results-driven, team player, detail-oriented, time management, communication to technical and non-technical audiences
 experience:
+  include-in-resume: true
+  include-in-cv: true
   items:
     - role: Data Scientist
       employer: National Oceanic and Atmospheric Administration
@@ -131,6 +136,8 @@ experience:
         * Delivered regular demonstrations of research and data products to >1200 annual University visitors including elected officials, school groups, and community members using a state-of-the-art global data visualization display and Google Earth.
         * Participated in week-long cruises aboard 146-foot coastal research vessel studying coastal water quality, dynamics, and primary productivity in the mid-Atlantic Bight, logging more than 80 days at sea.
 research:
+  include-in-resume: false
+  include-in-cv: true
   items:
     - entry: "Measuring surface currents from drones, Biscayne Bay, FL"
       date: 2018
@@ -159,6 +166,8 @@ research:
     - entry: "Florida Tech Marine Field Projects interdisciplinary research cruise in Florida Atlantic coastal waters (1 cruise, R/V *Gulf Stream Eagle*)"
       date: 2007
 awards:
+  include-in-resume: true
+  include-in-cv: false
   items:
     - award: Three annual performance awards (top 30% in 2024), three impromptu performance awards, and six "shout out" recognitions of appreciation (2022-2024, NOAA)
     - award: Rosenstiel School of Marine and Atmospheric Science TA Excellence Award (2019, University of Miami)
@@ -167,6 +176,8 @@ awards:
     - award: Oceanography Fellow (2008, University of Delaware)
     - award: Eagle Scout
 publications:
+  include-in-resume: true
+  include-in-cv: true
   peer-reviewed:
     items:
       - paper: "**Grossi, M.D.**, S. Jegelka,  P.F.J. Lermusiaux, T.M. Özgökmen (2025) Surface drifter trajectory prediction in the Gulf of Mexico using neural networks, *Ocean Modelling*, 196, 102543."
@@ -192,6 +203,7 @@ publications:
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2019) Predicting Oil Transport in Oceanic Flows: Are Neural Networks Up to the Task?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
       - paper: "**Grossi, M.D.**, T.M. Özgökmen (2018) Can artificial intelligence predict the dispersion of spilled oil?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
 fundingawarded:
+  include-in-cv: true
   items:
     - entry: 'NOAA Fisheries Information System Program ($80,000) "Advancing innovative deep learning models for red snapper otolith ageing towards operational use"'
       date: 2025
