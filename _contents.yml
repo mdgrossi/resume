@@ -22,7 +22,7 @@ education:
       institution: University of Miami
       location: Coral Gables, FL
       date: 2021
-      extra: award of academic merit
+      extra: Award of academic merit
     - degree: Master of Science
       major: Oceanography
       institution: University of Delaware
@@ -35,6 +35,24 @@ education:
       date: 2008
       minor: Meteorology
       extra: cum laude
+additional-education:
+  include-in-cv: true
+  items:
+    - major: Climate Science
+      institution: University of Massachusetts Dartmouth
+      location: New Bedford, MA
+      date: 2014-2016
+      extra: 6 graduate credit hours
+    - major: Theology
+      institution: Saint John's Seminary College
+      location: Brighton, MA
+      date: 2012-2014
+      extra: 69 graduate credit hours
+    - major: Philosophy
+      institution: Providence College
+      location: Providence, RI
+      date: 2010-2012
+      extra: 48 undergraduate credit hours
 skills:
   include-in-resume: true
   ncol: 4
@@ -115,7 +133,7 @@ experience:
       extra: two undergraduate courses
       date: Aug 2018--Dec 2019
       details: |
-        * Exercised classroom management for ~20 students per class. Articulated complex material, led laboratory experiments, and provided timely constructive feedback to foster student learning and development.
+        * Exercised classroom management for approximately 20 students per class. Articulated complex material, led laboratory experiments, and provided timely constructive feedback to foster student learning and development.
         * Taught R to 20 undergraduate students in weekly classroom sessions, bringing students with no previous coding experience to beginner-level confidence in writing scripts to solve real oceanography problems with class average homework grade 87%. Highly praised in overwhelmingly positive student feedback.
     - role: Research Assistant
       employer: University of Massachusetts Dartmouth
@@ -139,6 +157,8 @@ research:
   include-in-resume: false
   include-in-cv: true
   items:
+    - entry: "*(>160 days in the field, >90 sea days)*"
+      date: ""
     - entry: "Measuring surface currents from drones, Biscayne Bay, FL"
       date: 2018
     - entry: "Performance comparison of Lagrangian drifter designs under wind stress, Gulf Stream (1 cruise, chartered small boat)"
@@ -167,14 +187,20 @@ research:
       date: 2007
 awards:
   include-in-resume: true
-  include-in-cv: false
+  include-in-cv: true
   items:
-    - award: Three annual performance awards (top 30% in 2024), three impromptu performance awards, and six "shout out" recognitions of appreciation (2022-2024, NOAA)
-    - award: Rosenstiel School of Marine and Atmospheric Science TA Excellence Award (2019, University of Miami)
-    - award: Gulf of Mexico Research Initiative Scholar (2019, University of Miami)
-    - award: University of Miami Center for Computational Science Graduate Fellow (2018, University of Miami)
-    - award: Oceanography Fellow (2008, University of Delaware)
-    - award: Eagle Scout
+    - award: Three annual performance awards (top 30% in 2024), three impromptu performance awards, and six "shout out" recognitions of appreciation (NOAA)
+      date: 2022-24
+    - award: Rosenstiel School of Marine and Atmospheric Science TA Excellence Award (University of Miami)
+      date: 2019
+    - award: Gulf of Mexico Research Initiative Scholar (University of Miami)
+      date: 2019
+    - award: University of Miami Center for Computational Science Graduate Fellow (University of Miami)
+      date: 2018
+    - award: Oceanography Fellow (University of Delaware)
+      date: 2008
+    - award: Eagle Scout (Boy Scouts of America)
+      date: 2004
 publications:
   include-in-resume: true
   include-in-cv: true
@@ -202,6 +228,26 @@ publications:
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2020) Can Neural Networks Learn Realistic Ocean Trajectories?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, Tampa, FL."
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2019) Predicting Oil Transport in Oceanic Flows: Are Neural Networks Up to the Task?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
       - paper: "**Grossi, M.D.**, T.M. Özgökmen (2018) Can artificial intelligence predict the dispersion of spilled oil?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
+  cvtalks:
+    items:
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2020) Can Neural Networks Learn Realistic Ocean Trajectories?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, Tampa, FL."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2020) Predicting particle trajectories using artificial neural networks, Multidisciplinary University Research Initiative (MURI) Machine Learning for Submesoscale Characterization, Ocean Prediction, and Exploration (SCOPE) project kickoff meeting, Massachusetts Institute of Technology, Cambridge, MA."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2019) Predicting particle trajectories using artificial neural networks, Consortium for Advanced Research on Transport of Hydrocarbon in the Environment Fall All-Hands Meeting, University of Miami, Miami, FL."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2019) Predicting Oil Transport in Oceanic Flows: Are Neural Networks Up to the Task?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2018) Predicting particle transport in oceanic flow regimes using artificial neural networks, Consortium for Advanced Research on Transport of Hydrocarbon in the Environment Fall All-Hands Meeting, University of Miami, Miami, FL."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2018) A first glimpse at predicting ocean dispersion using artificial neural networks, Consortium for Advanced Research on Transport of Hydrocarbon in the Environment Spring All-Hands Meeting, University of Miami, Miami, FL."
+      - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2018) A first glimpse at predicting ocean dispersion using artificial neural networks, University of Miami Center for Computational Sciences Fellows Symposium, Miami, FL."
+      - paper: "**Grossi, M.D.**, T.M. Özgökmen (2018) Can artificial intelligence predict the dispersion of spilled oil?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
+      - paper: "Oliver, M.J., **M.D. Grossi**, E.F. Geiger, A. Irwin, F. Veron (2013) Predicting Ocean Density Profiles Using Satellite Platforms, NASA Biodiversity and Ecological Forecasting Team Meeting, April 23-25,2013, Arlington, VA."
+      - paper: "Oliver, M.J., **M.D. Grossi**, E.F. Geiger, A. Irwin, F. Veron (2011) Predicting ocean density profiles using satellite platforms, NASA Joint Carbon and Ecosystems, Washington D.C."
+      - paper: "Geiger, E.F., **M.D. Grossi**, A.C. Trembanis, J.T. Kohut, M.J. Oliver (2011) Satellite-Derived Coastal Ocean and Estuarine Salinity in the Mid-Atlantic, NASA Joint Carbon and Ecosystems, Washington D.C."
+      - paper: "**Grossi, M.D.**, E.F. Geiger, A.J. Irwin, F. Veron, M.J. Oliver (2010) Predicting Open Ocean Density Profiles from Satellite Observations, Ocean Sciences Meeting, Portland, OR."
+      - paper: "Geiger, E.F., **M.D. Grossi**, A.C. Trembanis, J.T. Kohut, M.J. Oliver (2010) Satellite Derived Salinity Predictions of the Mid-Atlantic Coastal Ocean, Ocean Sciences Meeting, Portland, OR."
+      - paper: "Treible, L.M., E.F. Geiger, **M.D. Grossi**, M.J. Oliver (2010) The Impact of Wind on Non-Photochemical Quenching in the Mid-Atlantic Coastal Ocean, Ocean Sciences Meeting, Portland, OR."
+      - paper: "Geiger, E., **M. Grossi**, M. Oliver (2009) Developing Satellite-Derived Salinity Product for the Mid-Atlantic Coastal Region, Delaware EPSCoR Annual State Meeting, Newark, DE."
+      - paper: "Oliver, M., **M. Grossi**, E. Geiger (2009) 3-D Mapping of Ocean Water Masses and Provinces, Joint Carbon/Biodiversity Meeting, New York, NY."
+      - paper: "Splitt, M.E., **M.D. Grossi** (2008) Evaluation of the Real-Time Ocean Forecast System in Florida Atlantic Coastal Waters, Ocean Sciences Meeting, Orlando, FL."
+      - paper: "**Grossi, M.D.** (2007) Evaluation of the Real-Time Ocean Forecast System in Florida Atlantic Coastal Waters, Florida Institute of Technology Department of Marine & Environmental Systems Summer Symposium, Melbourne, FL. (Both oral and poster presentation)"
 fundingawarded:
   include-in-cv: true
   items:
@@ -209,6 +255,131 @@ fundingawarded:
       date: 2025
     - entry: 'NOAA Fisheries Information System Program Inflation Reduction Act ($768,237) "Building a Better Data Ecosystem: Database integration and data warehousing"'
       date: 2024-27
+memberships:
+  include-in-cv: true
+  items:
+    - entry: Marine Technology Society
+    - entry: The Oceanography Society
+teaching:
+  include-in-cv: true
+  items:
+    - date: 2019
+      role: Teaching Assistant
+      course: "MSC 112: Introduction to Marine Science Lab"
+      institution: University of Miami
+      extra: "Topics taught: deep sea sediment, microfossils, and global climate change; surface currents and shoreline erosion; coastal marine environments of South Florida"
+    - date: 2019
+      role: "Invited Leader"
+      course: "Educational Training for Teaching Assistants"
+      institution: University of Miami
+    - date: 2019
+      role: Guest Lecturer (3 lectures)
+      course: "MPO 511/611: Geophysical Fluid Dynamics I"
+      institution: University of Miami
+    - date: 2018
+      role: "Guest Lecturer (2 lectures)"
+      course: "MPO 511/611: Geophysical Fluid Dynamics I"
+      institution: University of Miami
+    - date: 2018
+      role: Invited speaker
+      course: "RSMAS Lunch Bytes Educational Seminar Series (Talk title: Peeking under the hood of an artificial neural network)"
+      institution: University of Miami
+    - date: 2018
+      role: Teaching Assistant
+      course: "MSC 301: Introduction to Physical Oceanography (Topics taught: wind-driven circulation, western boundary currents, vorticity, instability, and programming in R)"
+      institution: University of Miami
+      extra: "RSMAS TA Excellence Award winner"
+    - date: 2015
+      role: Guest Lecturer
+      course: "MAR 110: Natural Hazards and the Oceans"
+      institution: University of Massachusetts Dartmouth
+      extra: "Topic: Short-term Climate Variability and El Niño/Southern Oscillation"
+service:
+  include-in-cv: true
+  items:
+    - date: 2020
+      activity: "New Student Professional Development and Networking Program team member: planned and executed a two-semester orientation/professional development program for approximately 15 incoming RSMAS students"
+      institution: University of Miami
+    - date: 2019-21
+      activity: "Student Led Evaluations and Development (SLED) committee student representative for the RSMAS Meteorology and Physical Oceanography program"
+      institution: University of Miami
+    - date: 2019
+      activity: "Demonstrations of ocean observation techniques and instrumentation, presentations about the Consortium for Advanced Research on Transport of Hydrocarbon in the Environment (CARTHE) and local outreach program BayDrift, and tours of CARTHE lab"
+      institution: University of Miami
+      extra: "elementary, middle, high school students; local public school teachers"
+    - date: 2019
+      activity: "New Student Professional Development and Networking Program team member: planned and executed a 4-week pilot orientation program for approximately 35 incoming RSMAS students"
+      institution: University of Miami
+    - date: 2019
+      activity: Identifying gaps in undergraduate preparation and core competencies and outlining strategies for moving forward
+      institution: University of Miami
+      extra: invited panelist
+    - date: 2018
+      activity: "CARTHE to the Classroom: teaching under-privileged kids about ocean currents, conservation, and BayDrift "
+      institution: "Horace Mann Middle School, Miami, FL"
+      extra: ">100 students grades 6-8"
+    - date: 2018
+      activity: "Demonstrations of ocean observation techniques and instrumentation, presentations about CARTHE and local outreach program BayDrift, and tours of CARTHE lab"
+      extra: "elementary, middle, high school students; local public school teachers"
+      institution: University of Miami
+    - date: 2018
+      activity: "Presentation of ocean observation techniques for Frost Science Museum Summer Camp students"
+      institution: University of Miami
+      extra: "grades 6-8"
+    - date: 2016
+      activity: "Demonstrations of ocean observation, data visualization, and glider operations for Tabor Academy (Marion, MA) ninth grade students"
+      institution: "UMass Dartmouth"
+    - date: 2016
+      activity: "Demonstration of glider operations, underwater robotics, data visualization, and oceanographic data sampling for Carney Academy (New Bedford, MA) fourth grade students"
+      institution: UMass Dartmouth
+    - date: 2016
+      activity: "Trained and mentored new research assistant in HR radar and AUV glider operations, data management, and public outreach"
+      institution: UMass Dartmouth
+    - date: 2014-16
+      activity: "Created and maintained Facebook outreach page for the Ocean Observation Laboratory reaching over 300 people within the first year"
+      institution: UMass Dartmouth
+    - date: 2015
+      activity: "Showcased glider and ocean observation methods at New Bedford Working Waterfront Festival"
+      institution: UMass Dartmouth
+    - date: 2015
+      activity: "Demonstrations of ocean observation, data visualization, and glider operations for Tabor Academy (Marion, MA) ninth grade students"
+      institution: UMass Dartmouth
+    - date: 2015
+      activity: "Recruited, trained, and supervised student workers and community volunteers for lab and field work"
+      institution: UMass Dartmouth
+    - date: 2010
+      activity: "Mobilized AUV glider in an emergency response to the Deepwater Horizon oil spill in the Gulf of Mexico"
+      institution: University of Delaware
+    - date: 2010
+      activity: Mentored undergraduate summer interns with data collection, analysis, and presentation of summer research projects
+      institution: University of Delaware
+    - date: 2010
+      activity: Collaborated with high school science curriculum development team to integrate NASA products into classroom instruction
+      institution: University of Delaware and Cape Henlopen High School, Lewes, DE
+    - date: 2010
+      activity: Demonstrations of state-of-the-art Global Visualization lab, ocean observation, research, and data products to campus visitors 
+      institution: University of Delaware
+      extra: ">1200 visitors in 2010"
+    - date: 2009
+      activity: Mentored undergraduate summer interns with cruise procedures, data collection, analysis, and presentation of summer research projects
+      institution: University of Delaware
+media:
+  include-in-cv: true
+  items:
+    - entry: 'GoMRI Scholar Recognition Writeup (June 11, 2019): "[*Grad Student Grossi Uses Artificial Intelligence to Map Ocean Flows*](https://gulfresearchinitiative.org/grad-student-grossi-uses-artificial-intelligence-to-map-ocean-flows)”: funding agency highlighting early stages of my dissertation research'
+    - entry: 'UMass Dartmouth News (June 2, 2016): "[*SMAST underwater robot on mission to capture valuable ocean data*](https://www.umassd.edu/news/2016/gliderblue16.html)"": highlighted our 2016 deployment of glider Blue in preparation for hurricane season'
+    - entry: 'SMAST News (May 24, 2016): "[*Underwater robot begins mission to track ocean data*](https://www.umassd.edu/smast/news/underwater-robot-begins-mission-to-track-ocean-data.html)"'
+    - entry: 'SouthCoastToday.com (October 28, 2014): “[*SMAST deploys water glider to study ocean temperatures*](https://www.southcoasttoday.com/article/20141028/News/141029383)”: local newspaper showcasing our 2014 glider deployment'
+    - entry: 'WPRI (November 25, 2014): “*UMD getting ocean data from Blue glider*": local news outlet showcasing our 2014 glider deployment'
+certifications:
+  include-in-cv: true
+  items:
+    - entry: Open Water SCUBA (SDI)
+    - entry: National Weather Service SKYWARN Spotter, Taunton, MA Office
+    - entry: United States Coast Guard Auxiliary Safe Boating Certificate
+    - entry: State of Delaware Boating License
+    - entry: State of Connecticut Safe Boating Certificate with Personal Watercraft Operation endorsement
+    - entry: FCC-licensed (Technician) amateur radio operator
 
 resumefilename: "Grossi-resume"
 cvfilename: "Grossi-cv"

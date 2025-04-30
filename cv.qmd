@@ -1,7 +1,7 @@
 ---
 format:
-  html:
-    toc: true
+#   html:
+#     toc: true
   cv-pdf:
     output-file: "Grossi-cv"
     output-ext: "pdf"
@@ -83,17 +83,32 @@ if 'experience' in contents.keys():
 
 :::
 
-<!-- Research -->
+<!-- Awards -->
 
-::: {.content-hidden unless-meta="research.include-in-cv"}
+::: {.content-hidden unless-meta="awards.include-in-cv"}
 
-# {{< iconify ic baseline-work >}} Research
+# {{< iconify hugeicons star-award-01 >}} Honors and Awards
 
 ```{python}
-#| label: research
+#| label: awards
 #| output: asis
-if 'research' in contents.keys():
-    cv.cventry(items=contents['research']['items'])
+if 'awards' in contents.keys():
+    cv.cventry(items=contents['awards']['items'])
+```
+
+:::
+
+<!-- Memberships -->
+
+::: {.content-hidden unless-meta="memberships.include-in-cv"}
+
+# {{< iconify stash people-group >}} Professional Memberships
+
+```{python}
+#| label: memberships
+#| output: asis
+if 'memberships' in contents.keys():
+    cv.mdlist(items=contents['memberships']['items'], bullets=True)
 ```
 
 :::
@@ -109,6 +124,21 @@ if 'research' in contents.keys():
 #| output: asis
 if 'fundingawarded' in contents.keys():
     cv.cventry(items=contents['fundingawarded']['items'])
+```
+
+:::
+
+<!-- Research -->
+
+::: {.content-hidden unless-meta="research.include-in-cv"}
+
+# {{< iconify icon-park cruise >}} Cruise and Field Research Experience
+
+```{python}
+#| label: research
+#| output: asis
+if 'research' in contents.keys():
+    cv.cventry(items=contents['research']['items'])
 ```
 
 :::
@@ -155,8 +185,70 @@ if 'publications' in contents.keys():
 #| label: talks
 #| output: asis
 if 'publications' in contents.keys():
-    if 'talks' in contents['publications'].keys():
+    if 'cvtalks' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['cvtalks']['items'], bullets=False)
+    elif 'talks' in contents['publications'].keys():
         cv.mdlist(items=contents['publications']['talks']['items'], bullets=False)
+```
+
+:::
+
+<!-- Media -->
+
+::: {.content-hidden unless-meta="media.include-in-cv"}
+
+# {{< iconify qlementine-icons media-16 >}} Media Publicity
+
+```{python}
+#| label: media
+#| output: asis
+if 'media' in contents.keys():
+    cv.mdlist(items=contents['media']['items'], bullets=True)
+```
+
+:::
+
+<!-- Teaching -->
+
+::: {.content-hidden unless-meta="teaching.include-in-cv"}
+
+# {{< iconify mdi teaching >}} Teaching
+
+```{python}
+#| label: teaching
+#| output: asis
+if 'teaching' in contents.keys():
+    cv.cvteaching(items=contents['teaching']['items'])
+```
+
+:::
+
+<!-- Service, Outreach, and Leadership -->
+
+::: {.content-hidden unless-meta="service.include-in-cv"}
+
+# {{< iconify ri community-line >}} Service, Outreach, and Leadership
+
+```{python}
+#| label: outreach
+#| output: asis
+if 'service' in contents.keys():
+    cv.cvservice(items=contents['service']['items'])
+```
+
+:::
+
+<!-- Certifications -->
+
+::: {.content-hidden unless-meta="certifications.include-in-cv"}
+
+# {{< iconify bx certification >}} Certifications
+
+```{python}
+#| label: certifications
+#| output: asis
+if 'certifications' in contents.keys():
+    cv.mdlist(items=contents['certifications']['items'], bullets=True)
 ```
 
 :::
