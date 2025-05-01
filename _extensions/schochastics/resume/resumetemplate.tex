@@ -122,7 +122,11 @@ $endif$
 
 $if(skills)$
 $if(skills.include-in-resume)$
+$if(skills.header)$
+\section{$skills.header$}
+$else$
 \section{Skills}
+$endif$
 \vspace{-1em}
 \begin{multicols}{$skills.ncol$}
 $for(skills.items)$
@@ -139,7 +143,11 @@ $endif$
 
 $if(experience)$
 $if(experience.include-in-resume)$
+$if(experience.header)$
+\section{$experience.header$}
+$else$
 \section{Experience}
+$endif$
 $for(experience.items)$
 $if(experience.items.employer)$
 \cventry[\cvspace]{$experience.items.dates$}{$experience.items.role$}{$experience.items.employer$ \vspace{0.25em}}{$experience.items.where$}{$experience.items.extra$}{\vspace{0.25em} $experience.items.details$}
@@ -152,7 +160,11 @@ $endif$
 
 $if(education)$
 $if(education.include-in-resume)$
+$if(education.head)$
+\section{$education.header$}
+$else$
 \section{Education}
+$endif$
 $for(education.items)$
 $if(education.items.minor)$
 \cventry{$education.items.location$}{$education.items.institution$}{$education.items.degree$, $education.items.major$}{$education.items.date$}{$education.items.extra$}{Minor in $education.items.minor$}
@@ -165,7 +177,11 @@ $endif$
 
 $if(awards)$
 $if(awards.include-in-resume)$
+$if(awards.header)$
+\section{$awards.header$}
+$else$
 \section{Awards}
+$endif$
 \small
 \begin{itemize}
 $for(awards.items)$
@@ -180,9 +196,17 @@ Available upon request.
 
 $if(publications)$
 $if(publications.include-in-resume)$
+$if(publications.header)$
+\section{$publications.header$}
+$else$
 \section{Publications}
+$endif$
 $if(publications.peer-reviewed)$
-\subsection{Peer Reviewed Publications}
+$if(publications.peer-reviewed.subheader)$
+\subsection{$publications.peer-reviewed.subheader$}
+$else$
+\subsection{Peer Reviewed}
+$endif$
 \begin{itemize}
 $for(publications.peer-reviewed.items)$
 \item $publications.peer-reviewed.items.paper$
@@ -191,7 +215,11 @@ $endfor$
 $endif$
 
 $if(publications.proceedings)$
-\subsection{Conference Proceedings}
+$if(publications.proceedings.subheader)$
+\subsection{$publications.proceedings.subheader$}
+$else$
+\subsection{Proceedings}
+$endif$
 \begin{itemize}
 $for(publications.proceedings.items)$
 \item $publications.proceedings.items.paper$
@@ -200,7 +228,11 @@ $endfor$
 $endif$
 
 $if(publications.tech-reports)$
-\subsection{Technical Reports (not peer reviewed)}
+$if(publications.tech-reports.subheader)$
+\subsection{$publications.tech-reports.subheader$}
+$else$
+\subsection{Technical Reports}
+$endif$
 \begin{itemize}
 $for(publications.tech-reports.items)$
 \item $publications.tech-reports.items.paper$
@@ -209,7 +241,11 @@ $endfor$
 $endif$
 
 $if(publications.talks)$
-\subsection{Talks and Presentations (select)}
+$if(publications.talks.subheader)$
+\subsection{$publications.talks.subheader$}
+$else$
+\subsection{Talks and Posters}
+$endif$
 \begin{itemize}
 $for(publications.talks.items)$
 \item $publications.talks.items.paper$
