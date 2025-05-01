@@ -57,7 +57,7 @@ with open("_contents.yml", "r") as f:
 
 ::: {.content-hidden unless-meta="education.include-in-cv"}
 
-# {{< iconify zondicons education >}} Education
+## {{< iconify zondicons education >}} Education
  
 ```{python}
 #| label: education
@@ -68,11 +68,24 @@ if 'education' in contents.keys():
 
 :::
 
+::: {.content-hidden unless-meta="education.include-in-cv"}
+
+### Additional Higher Education (no degree)
+
+```{python}
+#| label: additional-education
+#| output: asis
+if 'additional-education' in contents.keys():
+    cv.cvaddedu(items=contents['additional-education']['items'])
+```
+
+:::
+
 <!-- Experience -->
 
 ::: {.content-hidden unless-meta="experience.include-in-cv"}
 
-# {{< iconify ic baseline-work >}} Professional Appointments
+## {{< iconify ic baseline-work >}} Professional Appointments
 
 ```{python}
 #| label: experience
@@ -87,7 +100,7 @@ if 'experience' in contents.keys():
 
 ::: {.content-hidden unless-meta="awards.include-in-cv"}
 
-# {{< iconify hugeicons star-award-01 >}} Honors and Awards
+## {{< iconify hugeicons star-award-01 >}} Honors and Awards
 
 ```{python}
 #| label: awards
@@ -102,7 +115,7 @@ if 'awards' in contents.keys():
 
 ::: {.content-hidden unless-meta="memberships.include-in-cv"}
 
-# {{< iconify stash people-group >}} Professional Memberships
+## {{< iconify stash people-group >}} Professional Memberships
 
 ```{python}
 #| label: memberships
@@ -117,7 +130,7 @@ if 'memberships' in contents.keys():
 
 ::: {.content-hidden unless-meta="fundingawarded.include-in-cv"}
 
-# {{< iconify solar money-bag-bold-duotone >}} Funding Procurement
+## {{< iconify solar money-bag-bold-duotone >}} Funding Procurement
 
 ```{python}
 #| label: funding
@@ -132,7 +145,7 @@ if 'fundingawarded' in contents.keys():
 
 ::: {.content-hidden unless-meta="research.include-in-cv"}
 
-# {{< iconify icon-park cruise >}} Cruise and Field Research Experience
+## {{< iconify icon-park cruise >}} Cruise and Field Research Experience
 
 ```{python}
 #| label: research
@@ -147,9 +160,9 @@ if 'research' in contents.keys():
 
 ::: {.content-hidden unless-meta="publications.include-in-cv"}
 
-# {{< iconify fxemoji newspaper >}} Publications and Presentations
+## {{< iconify fxemoji newspaper >}} Publications and Presentations
 
-## Peer Reviewed Publications
+### Peer Reviewed Publications
 
 ```{python}
 #| label: peer-review
@@ -159,7 +172,7 @@ if 'publications' in contents.keys():
         cv.mdlist(items=contents['publications']['peer-reviewed']['items'], bullets=False)
 ```
 
-## Conference Proceedings
+### Conference Proceedings
 
 ```{python}
 #| label: proceedings
@@ -169,7 +182,7 @@ if 'publications' in contents.keys():
         cv.mdlist(items=contents['publications']['proceedings']['items'], bullets=False)
 ```
 
-## Technical Reports (not peer reviewed)
+### Technical Reports (not peer reviewed)
 
 ```{python}
 #| label: techreports
@@ -179,7 +192,7 @@ if 'publications' in contents.keys():
         cv.mdlist(items=contents['publications']['tech-reports']['items'], bullets=False)
 ```
 
-## Presentations, Posters, and Contributed Abstracts
+### Presentations, Posters, and Contributed Abstracts
 
 ```{python}
 #| label: talks
@@ -197,7 +210,7 @@ if 'publications' in contents.keys():
 
 ::: {.content-hidden unless-meta="media.include-in-cv"}
 
-# {{< iconify qlementine-icons media-16 >}} Media Publicity
+## {{< iconify qlementine-icons media-16 >}} Media Publicity
 
 ```{python}
 #| label: media
@@ -212,7 +225,7 @@ if 'media' in contents.keys():
 
 ::: {.content-hidden unless-meta="teaching.include-in-cv"}
 
-# {{< iconify mdi teaching >}} Teaching
+## {{< iconify mdi teaching >}} Teaching
 
 ```{python}
 #| label: teaching
@@ -227,7 +240,7 @@ if 'teaching' in contents.keys():
 
 ::: {.content-hidden unless-meta="service.include-in-cv"}
 
-# {{< iconify ri community-line >}} Service, Outreach, and Leadership
+## {{< iconify ri community-line >}} Service, Outreach, and Leadership
 
 ```{python}
 #| label: outreach
@@ -242,7 +255,7 @@ if 'service' in contents.keys():
 
 ::: {.content-hidden unless-meta="certifications.include-in-cv"}
 
-# {{< iconify bx certification >}} Certifications
+## {{< iconify bx certification >}} Certifications
 
 ```{python}
 #| label: certifications

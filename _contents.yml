@@ -2,7 +2,8 @@ title: Matthew D. Grossi, Ph.D.
 subtitle: Data Scientist
 author:
   firstname: "Matthew D."
-  lastname: "Grossi\\textcolor{gray}{, Ph.D.}"
+  lastname: "Grossi"
+  suffix: "Ph.D."
 contact:
   email: "matt.grossi@proton.me"
   phone: 860 307 1981
@@ -380,6 +381,7 @@ certifications:
     - entry: State of Delaware Boating License
     - entry: State of Connecticut Safe Boating Certificate with Personal Watercraft Operation endorsement
     - entry: FCC-licensed (Technician) amateur radio operator
-
+cv-page-numbers: true
+resume-page-numbers: false
 resumefilename: "Grossi-resume"
 cvfilename: "Grossi-cv"

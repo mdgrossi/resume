@@ -328,6 +328,39 @@ def cveducation(items, abbrev=True):
     html_table = table_start + entries + table_end
     display(Markdown(html_table))
 
+def cvaddedu(items):
+    """Generate markdown syntax for a CV list of additional education from 
+    contents of dict `items` as described below. Note that this returns a 
+    string of code needed to create a table, not a table itself. This is used
+    within a Quarto markdown files to display a table when that file is
+    rendered.
+    
+    ARGUMENTS
+    ---------
+    items: list of dictionaries, each containing the following items:
+        {
+        'major': str, the name of the degree,
+        'institution': str, the name of the institution from which the degree
+        was earned,
+        'location': str, location of the institution,
+        'date': str, the date of degree conferral,
+        'extra': str (optional), any other relevant information (e.g., award)
+        }
+        Normally, this dictionary would be from the YAML front matter of a
+        Quarto markdown file.
+    """
+    
+    table_start = '<table class = "mytable">\n<tbody>\n'
+    entries = ""
+    for item in items:
+        entries += f"<tr><td class='year'><b>{item['date']}</b></td><td>{item['major']} (<i>{item['extra']}</i>), {item['institution']}, {item['location']}</td></tr>"
+    table_end = '</tbody>\n</table>\n'
+    
+    # Assemble table
+    html_table = table_start + entries + table_end
+    display(Markdown(html_table))
+
+
 def cvteaching(items):
     """Generate markdown syntax for a CV list of teaching experience from 
     contents of dict `items` as described below. Note that this returns a 
