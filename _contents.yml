@@ -17,7 +17,8 @@ summary: "Oceanographer and data scientist with 14 years experience conducting h
 education:
   include-in-resume: true
   include-in-cv: true
-  header: Education
+  resume-header: Education
+  cv-header: Education
   items:
     - degree: Doctor of Philosophy
       major: Meteorology and Physical Oceanography
@@ -39,7 +40,8 @@ education:
       extra: cum laude
 additional-education:
   include-in-cv: true
-  header: Additional Higher Education (no degree)
+  resume-header: Additional Higher Education (no degree)
+  cv-header: Additional Higher Education (no degree)
   items:
     - major: Climate Science
       institution: University of Massachusetts Dartmouth
@@ -58,7 +60,7 @@ additional-education:
       extra: 48 undergraduate credit hours
 skills:
   include-in-resume: true
-  header: Skills
+  resume-header: Skills
   ncol: 4
   items:
     - skill: Data Analysis
@@ -101,7 +103,8 @@ skills:
 experience:
   include-in-resume: true
   include-in-cv: true
-  header: Professional Experience
+  resume-header: Professional Experience
+  cv-header: Professional Appointments
   items:
     - role: Data Scientist
       employer: National Oceanic and Atmospheric Administration
@@ -161,7 +164,8 @@ experience:
 research:
   include-in-resume: false
   include-in-cv: true
-  header: Cruise and Field Research Experience
+  resume-header: Research Experience
+  cv-header: Cruise and Field Research Experience
   items:
     - entry: "*(>160 days in the field, >90 sea days)*"
       date: ""
@@ -194,7 +198,8 @@ research:
 awards:
   include-in-resume: true
   include-in-cv: true
-  header: Awards
+  resume-header: Awards
+  cv-header: Honors and Awards
   items:
     - award: Three annual performance awards (top 30% in 2024), three impromptu performance awards, and six "shout out" recognitions of appreciation (NOAA)
       date: 2022-24
@@ -211,27 +216,31 @@ awards:
 publications:
   include-in-resume: true
   include-in-cv: true
-  header: Publications
+  resume-header: Publications
+  cv-header: Publications
   peer-reviewed:
-    subheader: Peer Reviewed
+    resume-subheader: Peer Reviewed
+    cv-subheader: Peer Reviewed
     items:
       - paper: "**Grossi, M.D.**, S. Jegelka,  P.F.J. Lermusiaux, T.M. Özgökmen (2025) Surface drifter trajectory prediction in the Gulf of Mexico using neural networks, *Ocean Modelling*, 196, 102543."
       - paper: "**Grossi, M.D.** , T.M. &Ouml;zg&ouml;kmen, M. Kubat (2020) Predicting particle trajectories in oceanic flows using artificial neural networks, *Ocean Modelling*, 156, 101707."
       - paper: "Geiger, E.F., **M.D. Grossi**, A.C. Trembanis, J.T. Kohut, M.J. Oliver (2011) Satellite-Derived Coastal Ocean and Estuarine Salinity in the Mid-Atlantic, *Continental Shelf Research*, doi:10.1016/j.csr.2011.12.001."
   proceedings:
-    subheader: Conference Proceedings
+    resume-subheader: Conference Proceedings
+    cv-subheader: Conference Proceedings
     items:
       - paper: "Shah, C, M.M. Nabi, S.Y. Alaba, M.D. Campbell, R. Caillouet, **M.D. Grossi**, J.E. Ball, and R. Moorhead (2025) YOLOv8-TF: Transformer-Enhanced YOLOv8 for Underwater Fish Species Recognition with Class Imbalance Handling, *Sensors*, 25, 1846, doi:10.3390/s25061846."
       - paper: "Shah, C., M.M. Nabi, S.Y. Alaba, R. Caillouet, J. Prior, M. Campbell, **M.D. Grossi**, F. Wallace, J.E. Ball, and R. Moorhead (2024) Active detection for fish species recognition in underwater environments, Proc. SPIE 13061, Ocean Sensing and Monitoring XVI, 130610D, 6 June 2024, https://doi.org/10.1117/12.3013344."
       - paper: "Alaba, S.Y., J.H. Prior, C. Shah, M.M. Nabi, J.E. Ball, R. Moorhead, M.D. Campbell, F. Wallace, and **M.D. Grossi** (2024) Multifish tracking for marine biodiversity monitoring, Proc. SPIE 13061, Ocean Sensing and Monitoring XVI, 130610E, 6 June 2024, https://doi.org/10.1117/12.3013503."
   tech-reports:
-    subheader: Technical Reports (not peer reviewed)
+    resume-subheader: Technical Reports (not peer reviewed)
+    cv-subheader: Technical Reports (not peer reviewed)
     items:
       - paper: "**Grossi, M.D.**, M. Monim, A. Gangopadhyay (2017) Global Climate Patterns: An Overview of Arctic Oscillation, Pacific Decadal Oscillation, Pacific/North American Pattern, and El Ni&ntilde;o Southern Oscillation, University of Massachusetts Dartmouth School for Marine Science and Technology Technical Report SMAST-17-0401, doi:10.13140/RG.2.2.34586.44480."
       - paper: "W.S. Brown and **M. Grossi** (2016) Pre- and Post-Mission-6 Glider CTD Comparison Measurements: 11 June and 22 July 2015, University of Massachusetts Dartmouth School for Marine Science and Technology Technical Report SMAST-16-0501."
       - paper: "W.S. Brown and **M. Grossi** (2015) Pre- and Post-Mission Glider CTD Comparison Measurements: 19 June 2014 and 6 February 2015, University of Massachusetts Dartmouth School for Marine Science and Technology Technical Report SMAST-15-06-01."
   talks:
-    subheader: Talks and Presentations (select)
+    resume-subheader: Talks and Presentations (select)
     items:
       - paper: "**Grossi, M.D.** (2024) Machine learning success and the next generation of data governance at the Southeast Fisheries Science Center, 2024 NOAA Enterprise Data Management Workshop (EDMW), virtual."
       - paper: "**Grossi, M.D.** (2022) From Good to Great: Strengthening the FAIRness of underwater glider data through community metadata implementation, Underwater Glider User Group Workshop, Seattle, WA."
@@ -241,7 +250,7 @@ publications:
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2019) Predicting Oil Transport in Oceanic Flows: Are Neural Networks Up to the Task?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
       - paper: "**Grossi, M.D.**, T.M. Özgökmen (2018) Can artificial intelligence predict the dispersion of spilled oil?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, New Orleans, LA."
   cvtalks:
-    subheader: Presentations | Posters | Contributed Abstracts
+    cv-subheader: Presentations | Posters | Contributed Abstracts
     items:
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2020) Can Neural Networks Learn Realistic Ocean Trajectories?, Gulf of Mexico Oil Spill and Ecosystem Science Conference, Tampa, FL."
       - paper: "**Grossi, M.D.**, M. Kubat, T.M. Özgökmen (2020) Predicting particle trajectories using artificial neural networks, Multidisciplinary University Research Initiative (MURI) Machine Learning for Submesoscale Characterization, Ocean Prediction, and Exploration (SCOPE) project kickoff meeting, Massachusetts Institute of Technology, Cambridge, MA."
@@ -263,7 +272,7 @@ publications:
       - paper: "**Grossi, M.D.** (2007) Evaluation of the Real-Time Ocean Forecast System in Florida Atlantic Coastal Waters, Florida Institute of Technology Department of Marine & Environmental Systems Summer Symposium, Melbourne, FL. (Both oral and poster presentation)"
 fundingawarded:
   include-in-cv: true
-  header: Funding Procurement
+  cv-header: Funding Procurement
   items:
     - entry: 'NOAA Fisheries Information System Program ($80,000) "Advancing innovative deep learning models for red snapper otolith ageing towards operational use"'
       date: 2025
@@ -271,13 +280,13 @@ fundingawarded:
       date: 2024-27
 memberships:
   include-in-cv: true
-  header: Professional Memberships
+  cv-header: Professional Memberships
   items:
     - entry: Marine Technology Society
     - entry: The Oceanography Society
 teaching:
   include-in-cv: true
-  header: Teaching Experience
+  cv-header: Teaching Experience
   items:
     - date: 2019
       role: Teaching Assistant
@@ -312,7 +321,7 @@ teaching:
       extra: "Topic: Short-term Climate Variability and El Niño/Southern Oscillation"
 service:
   include-in-cv: true
-  header: Service | Outreach | Leadership
+  cv-header: Service | Outreach | Leadership
   items:
     - date: 2020
       activity: "New Student Professional Development and Networking Program team member: planned and executed a two-semester orientation/professional development program for approximately 15 incoming RSMAS students"
@@ -382,7 +391,7 @@ service:
       institution: University of Delaware
 media:
   include-in-cv: true
-  header: Media Publicity
+  cv-header: Media Publicity
   items:
     - entry: 'GoMRI Scholar Recognition Writeup (June 11, 2019): "[*Grad Student Grossi Uses Artificial Intelligence to Map Ocean Flows*](https://gulfresearchinitiative.org/grad-student-grossi-uses-artificial-intelligence-to-map-ocean-flows)”: funding agency highlighting early stages of my dissertation research'
     - entry: 'UMass Dartmouth News (June 2, 2016): "[*SMAST underwater robot on mission to capture valuable ocean data*](https://www.umassd.edu/news/2016/gliderblue16.html)"": highlighted our 2016 deployment of glider Blue in preparation for hurricane season'
@@ -391,7 +400,7 @@ media:
     - entry: 'WPRI (November 25, 2014): “*UMD getting ocean data from Blue glider*": local news outlet showcasing our 2014 glider deployment'
 certifications:
   include-in-cv: true
-  header: Certifications
+  cv-header: Certifications
   items:
     - entry: Open Water SCUBA (SDI)
     - entry: National Weather Service SKYWARN Spotter, Taunton, MA Office
