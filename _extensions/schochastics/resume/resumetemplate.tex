@@ -43,10 +43,14 @@
 \usepackage{enumitem} % Adjust bulleted list spacing (http://ctan.org/pkg/enumitem)
 
 % Page numbers
+$if(resume-page-numbers)$
+\usepackage{lastpage}
+\usepackage{fancyhdr}
 \nopagenumbers{}
-%    OR
-%\usepackage{lastpage}
-%\rfoot{\addressfont\itshape\textcolor{gray}{Grossi, page \thepage\ of \pageref{LastPage}}}
+\rfoot{\addressfont\itshape\textcolor{gray}{$author.lastname$ | \thepage\ of \pageref{LastPage}}}
+$else$
+\nopagenumbers{}
+$endif$
 
 % cventry spacing
 \newcommand{\cvspace}{0.6em}
@@ -74,7 +78,11 @@
 
 % Header information
 \firstname{$author.firstname$}
+$if(author.suffix)$
+\familyname{$author.lastname$\textcolor{gray}{, $author.suffix$}}
+$else$
 \familyname{$author.lastname$}
+$endif$
 $if(subtitle)$
 \title{$subtitle$}
 $endif$
