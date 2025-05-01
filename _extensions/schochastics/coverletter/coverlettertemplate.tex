@@ -34,7 +34,11 @@
 
 % Header information
 \firstname{$author.firstname$}
+$if(author.suffix)$
+\familyname{$author.lastname$\textcolor{gray}{, $author.suffix$}}
+$else$
 \familyname{$author.lastname$}
+$endif$
 $if(subtitle)$
 \title{$subtitle$}
 $endif$
