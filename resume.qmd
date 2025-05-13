@@ -2,9 +2,9 @@
 format:
   html:
     toc: true
-  # resume-pdf:
-  #   output-file: "Grossi-resume"
-  #   output-ext: "pdf"
+  resume-pdf:
+    output-file: "Grossi-resume"
+    output-ext: "pdf"
   docx:
     output-file: "Grossi-resume"
     output-ext: "docx"
