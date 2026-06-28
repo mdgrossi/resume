@@ -2,9 +2,9 @@
 format:
   html:
     toc: true
-#   cv-pdf:
-#     output-file: "Grossi-publications"
-#     output-ext: "pdf"
+  cv-pdf:
+    output-file: "Grossi-publications"
+    output-ext: "pdf"
   docx:
     output-file: "Grossi-publications"
     output-ext: "docx"
