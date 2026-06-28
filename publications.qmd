@@ -55,8 +55,6 @@ with open("_contents.yml", "r") as f:
 
 <!-- Publications -->
 
-::: {.content-hidden unless-meta="publications.include-in-cv"}
-
 ## {{< iconify fxemoji newspaper >}} {{< meta publications.cv-header >}}
 
 ### {{< meta publications.peer-reviewed.cv-subheader >}}
@@ -100,5 +98,3 @@ if 'publications' in contents.keys():
     elif 'talks' in contents['publications'].keys():
         cv.mdlist(items=contents['publications']['talks']['items'], bullets=False)
 ```
-
-:::
