@@ -1,6 +1,6 @@
 project:
   type: website
-  # execute-dir: project
+  execute-dir: project
   preview:
     port: 4200
 title-block-banner: true

@@ -1,0 +1,104 @@
+---
+format:
+  html:
+    toc: true
+  cv-pdf:
+    output-file: "Grossi-pubs"
+    output-ext: "pdf"
+  docx:
+    output-file: "Grossi-pubs"
+    output-ext: "docx"
+metadata-files:
+  - _contents.yml
+---
+
+```{python}
+#| label: pysetup
+import scripts.moderncv as cv
+import yaml
+
+with open("_contents.yml", "r") as f:
+  contents = yaml.safe_load(f)
+```
+
+<!-- Header rendering for docx -->
+
+::: {.content-visible when-format="docx"}
+
+<div style="text-align: center">
+
+[Email](mailto:{{< meta contact.email >}}) |  [Website]({{< meta contact.website >}}) | [GitHub](https://github.com/{{< meta contact.github >}}) | [LinkedIn](https://www.linkedin.com/in/{{< meta contact.linkedin >}}) | [ORCID](https://orcid.org/{{< meta contact.orcid >}}) | [ResearchGate](https://www.researchgate.net/profile/{{< meta contact.researchgate >}})
+
+</div>
+
+:::
+
+<!-- Rendering for website -->
+
+::: {.content-visible when-format="html"}
+::: {.column-margin .right-align}
+
+[Email](mailto:{{< meta contact.email >}}) {{< iconify fxemoji:email >}}
+
+[Website]({{< meta contact.website >}}) {{< iconify streamline:web >}}
+
+[GitHub](https://github.com/{{< meta contact.github >}}) {{< iconify mdi:github >}}
+
+[LinkedIn](https://www.linkedin.com/in/{{< meta contact.linkedin >}}) {{< iconify skill-icons:linkedin >}}
+
+[ORCID](https://orcid.org/{{< meta contact.orcid >}}) {{< iconify la:orcid >}}
+
+[ResearchGate](https://www.researchgate.net/profile/{{< meta contact.researchgate >}}) {{< iconify simple-icons:researchgate >}}
+
+:::
+:::
+
+<!-- Publications -->
+
+::: {.content-hidden unless-meta="publications.include-in-cv"}
+
+## {{< iconify fxemoji newspaper >}} {{< meta publications.cv-header >}}
+
+### {{< meta publications.peer-reviewed.cv-subheader >}}
+
+```{python}
+#| label: peer-review
+#| output: asis
+if 'publications' in contents.keys():
+    if 'peer-reviewed' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['peer-reviewed']['items'], bullets=False)
+```
+
+### {{< meta publications.proceedings.cv-subheader >}}
+
+```{python}
+#| label: proceedings
+#| output: asis
+if 'publications' in contents.keys():
+    if 'proceedings' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['proceedings']['items'], bullets=False)
+```
+
+### {{< meta publications.tech-reports.cv-subheader >}}
+
+```{python}
+#| label: techreports
+#| output: asis
+if 'publications' in contents.keys():
+    if 'tech-reports' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['tech-reports']['items'], bullets=False)
+```
+
+### {{< meta publications.cvtalks.cv-subheader >}}
+
+```{python}
+#| label: talks
+#| output: asis
+if 'publications' in contents.keys():
+    if 'cvtalks' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['cvtalks']['items'], bullets=False)
+    elif 'talks' in contents['publications'].keys():
+        cv.mdlist(items=contents['publications']['talks']['items'], bullets=False)
+```
+
+:::
