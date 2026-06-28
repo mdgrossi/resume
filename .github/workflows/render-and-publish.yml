@@ -44,7 +44,9 @@ jobs:
         run: echo "$HOME/.TinyTeX/bin/x86_64-linux" >> "$GITHUB_PATH"
 
       - name: Install required LaTeX packages
-        run: tlmgr install moderncv fontawesome6
+        run: |
+          tlmgr update --self
+          tlmgr install moderncv fontawesome6
 
       - name: Render and Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
