@@ -2,7 +2,7 @@
 format:
   html:
     toc: true
-  cv-pdf:
+  pubs-pdf:
     output-file: "Grossi-publications"
     output-ext: "pdf"
   docx:
