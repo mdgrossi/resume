@@ -36,7 +36,7 @@ jobs:
           # To install LaTeX to build PDF book
           tinytex: true
           # Pin to the Quarto version you use locally (check with `quarto --version`)
-          version: 1.4.549
+          version: 1.8.24
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
