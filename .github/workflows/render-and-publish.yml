@@ -13,14 +13,14 @@ jobs:
         shell: bash -l {0}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           submodules: 'true'
 
       - name: Update apt-get
         run: sudo apt-get update
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           cache: 'pip' # caching pip dependencies
@@ -35,10 +35,11 @@ jobs:
           # Pin to the Quarto version you use locally (check with `quarto --version`)
           version: 1.4.549
 
+      - name: Add TinyTeX to PATH
+        run: echo "$HOME/.TinyTeX/bin/x86_64-linux" >> "$GITHUB_PATH"
+
       - name: Install required LaTeX packages
-        run: |
-          quarto install tinytex --update-path
-          tlmgr install moderncv fontawesome6
+        run: tlmgr install moderncv fontawesome6
 
       - name: Render and Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
