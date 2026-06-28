@@ -3,10 +3,10 @@ format:
   html:
     toc: true
   cv-pdf:
-    output-file: "Grossi-pubs"
+    output-file: "Grossi-publications"
     output-ext: "pdf"
   docx:
-    output-file: "Grossi-pubs"
+    output-file: "Grossi-publications"
     output-ext: "docx"
 metadata-files:
   - _contents.yml

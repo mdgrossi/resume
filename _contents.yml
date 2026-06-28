@@ -413,3 +413,4 @@ cv-page-numbers: true
 resume-page-numbers: false
 resumefilename: "Grossi-resume"
 cvfilename: "Grossi-cv"
+pubsfilename: "Grossi-publications"
