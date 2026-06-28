@@ -44,6 +44,7 @@ jobs:
         run: echo "$HOME/.TinyTeX/bin/x86_64-linux" >> "$GITHUB_PATH"
 
       - name: Install required LaTeX packages
+        timeout-minutes: 5
         run: |
           tlmgr update --self
           tlmgr install moderncv fontawesome6
