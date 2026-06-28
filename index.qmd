@@ -9,6 +9,8 @@ Resume: R&egrave;sum&egrave;
 resume: r&egrave;sum&egrave;
 CV: Curriculum vit&aelig;
 cv: curriculum vit&aelig;
+Pubs: Publications;
+pubs: publications;
 ---
 
 ### Click any of the following to preview samples of each {{< meta resume >}} and {{< meta cv >}} format.  
@@ -19,4 +21,5 @@ cv: curriculum vit&aelig;
 | :---------- | :-: | :-: | :-: | :----------: |
 | **{{< meta Resume >}}** --- for the private sector | [Preview site](resume.qmd) | [pdf]({{< meta resumefilename >}}.pdf) | [docx]({{< meta resumefilename >}}.docx) |  |
 | **{{< meta CV >}}** --- for academia | [Preview site](cv.qmd) | [pdf]({{< meta cvfilename >}}.pdf) | [docx]({{< meta cvfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| **{{< meta Pubs >}}** (peer reviewed and not) | [Preview site](publications.qmd) | [pdf]({{< meta pubsfilename >}}.pdf) | [docx]({{< meta pubsfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 

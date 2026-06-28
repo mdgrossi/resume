@@ -223,13 +223,14 @@ publications:
     cv-subheader: Peer Reviewed
     items:
       - paper: "**Grossi, M.D.**, S. Jegelka,  P.F.J. Lermusiaux, T.M. Özgökmen (2025) Surface drifter trajectory prediction in the Gulf of Mexico using neural networks, *Ocean Modelling*, 196, 102543."
+      - paper: "Shah, C, M.M. Nabi, S.Y. Alaba, M.D. Campbell, R. Caillouet, **M.D. Grossi**, J.E. Ball, and R. Moorhead (2025) YOLOv8-TF: Transformer-Enhanced YOLOv8 for Underwater Fish Species Recognition with Class Imbalance Handling, *Sensors*, 25, 1846, doi:10.3390/s25061846."
       - paper: "**Grossi, M.D.** , T.M. &Ouml;zg&ouml;kmen, M. Kubat (2020) Predicting particle trajectories in oceanic flows using artificial neural networks, *Ocean Modelling*, 156, 101707."
       - paper: "Geiger, E.F., **M.D. Grossi**, A.C. Trembanis, J.T. Kohut, M.J. Oliver (2011) Satellite-Derived Coastal Ocean and Estuarine Salinity in the Mid-Atlantic, *Continental Shelf Research*, doi:10.1016/j.csr.2011.12.001."
   proceedings:
     resume-subheader: Conference Proceedings
     cv-subheader: Conference Proceedings
     items:
-      - paper: "Shah, C, M.M. Nabi, S.Y. Alaba, M.D. Campbell, R. Caillouet, **M.D. Grossi**, J.E. Ball, and R. Moorhead (2025) YOLOv8-TF: Transformer-Enhanced YOLOv8 for Underwater Fish Species Recognition with Class Imbalance Handling, *Sensors*, 25, 1846, doi:10.3390/s25061846."
+      - paper: "Shah, C., M.M. Nabi, I.A. Ebu, J. Prior, **M.D. Grossi**, F. Wallace, T. Rowell, J.E. Ball, R. Moorhead, R. Caillouet, M. Campbell (2025) Improved fish tracking in underwater images for marine biodiversity monitoring, Proc. SPIE 13460, Machine Learning from Challenging Data 2025, 134600F (29 May 2025), https://doi.org/10.1117/12.3053499."
       - paper: "Shah, C., M.M. Nabi, S.Y. Alaba, R. Caillouet, J. Prior, M. Campbell, **M.D. Grossi**, F. Wallace, J.E. Ball, and R. Moorhead (2024) Active detection for fish species recognition in underwater environments, Proc. SPIE 13061, Ocean Sensing and Monitoring XVI, 130610D, 6 June 2024, https://doi.org/10.1117/12.3013344."
       - paper: "Alaba, S.Y., J.H. Prior, C. Shah, M.M. Nabi, J.E. Ball, R. Moorhead, M.D. Campbell, F. Wallace, and **M.D. Grossi** (2024) Multifish tracking for marine biodiversity monitoring, Proc. SPIE 13061, Ocean Sensing and Monitoring XVI, 130610E, 6 June 2024, https://doi.org/10.1117/12.3013503."
   tech-reports:
@@ -286,7 +287,7 @@ memberships:
     - entry: The Oceanography Society
 teaching:
   include-in-cv: true
-  cv-header: Teaching Experience
+  cv-header: Teaching
   items:
     - date: 2019
       role: Teaching Assistant
@@ -412,3 +413,4 @@ cv-page-numbers: true
 resume-page-numbers: false
 resumefilename: "Grossi-resume"
 cvfilename: "Grossi-cv"
+pubsfilename: "Grossi-publications"
