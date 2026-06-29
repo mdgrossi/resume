@@ -19,7 +19,7 @@ pubs: publications
 
 |             | Website | Portable Document Format | Microsoft Word |              |
 | :---------- | :-: | :-: | :-: | :----------: |
-| **{{< meta Resume >}}** --- for the private sector | [Preview site](resume.qmd) | [pdf]({{< meta resumefilename >}}.pdf) | [docx]({{< meta resumefilename >}}.docx) |  |
-| **{{< meta CV >}} (CV)** --- for academia | [Preview site](cv.qmd) | [pdf]({{< meta cvfilename >}}.pdf) | [docx]({{< meta cvfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| **{{< meta Pubs >}}** --- peer reviewed, tech reports, conferences, talks, abstracts | [Preview site](publications.qmd) | [pdf]({{< meta pubsfilename >}}.pdf) | [docx]({{< meta pubsfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| **{{< meta Resume >}}** --- for the private sector | [{{< iconify streamline-plump-color:web >}}](resume.qmd) | [{{< iconify material-icon-theme:pdf >}}]({{< meta resumefilename >}}.pdf) | [{{< iconify bi:filetype-docx >}}]({{< meta resumefilename >}}.docx) |  |
+| **{{< meta CV >}} (CV)** --- for academia | [{{< iconify streamline-plump-color:web >}}](cv.qmd) | [{{< iconify material-icon-theme:pdf >}}]({{< meta cvfilename >}}.pdf) | [{{< iconify bi:filetype-docx >}}]({{< meta cvfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| **{{< meta Pubs >}}** --- peer reviewed, tech reports, conferences, talks, abstracts | [{{< iconify streamline-plump-color:web >}}](publications.qmd) | [{{< iconify material-icon-theme:pdf >}}]({{< meta pubsfilename >}}.pdf) | [{{< iconify bi:filetype-docx >}}]({{< meta pubsfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 : All updated January 2026
