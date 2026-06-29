@@ -13,13 +13,14 @@ Pubs: Publications
 pubs: publications
 ---
 
-### Click any of the following to preview samples of each {{< meta resume >}} and {{< meta cv >}} format.  
+### Click any of the following to view or download my current[^1] {{< meta resume >}}, {{< meta cv >}} (CV), or current list of publications.
 
 <br>
 
 |             | Website | Portable Document Format | Microsoft Word |              |
 | :---------- | :-: | :-: | :-: | :----------: |
 | **{{< meta Resume >}}** --- for the private sector | [Preview site](resume.qmd) | [pdf]({{< meta resumefilename >}}.pdf) | [docx]({{< meta resumefilename >}}.docx) |  |
-| **{{< meta CV >}}** --- for academia | [Preview site](cv.qmd) | [pdf]({{< meta cvfilename >}}.pdf) | [docx]({{< meta cvfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| **{{< meta CV >}} (CV)** --- for academia | [Preview site](cv.qmd) | [pdf]({{< meta cvfilename >}}.pdf) | [docx]({{< meta cvfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | **{{< meta Pubs >}}** --- peer reviewed, tech reports, conferences, talks, abstracts | [Preview site](publications.qmd) | [pdf]({{< meta pubsfilename >}}.pdf) | [docx]({{< meta pubsfilename >}}.docx) | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 
+[^1]: Updated January 2026
